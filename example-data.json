@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "name": "Damon",
+      "workout1": {
+        "date": "1/27/2025",
+        "name": "chest",
+        "movements": {
+          "movement1": {
+            "movement": "benchpress",
+            "isOneRep": true,
+            "movement1Log": [
+              {
+                "setNumber": 1,
+                "weight": 135,
+                "reps": 10
+              },
+              {
+                "setNumber": 2,
+                "weight": 145,
+                "reps": 10
+              },
+              {
+                "setNumber": 3,
+                "weight": 155,
+                "reps": 10
+              },
+              {
+                "setNumber": 4,
+                "weight": 185,
+                "reps": 7
+              }
+            ]
+          },
+          "movement2": {
+            "movement": "dumbellFly",
+            "isOneRep": false,
+            "movement2Log": [
+              {
+                "setNumber": 1,
+                "weight": 35,
+                "reps": 10
+              },
+              {
+                "setNumber": 2,
+                "weight": 40,
+                "reps": 10
+              },
+              {
+                "setNumber": 3,
+                "weight": 45,
+                "reps": 10
+              }
+            ]
+          }
+        }
+      },
+      "workout2": {
+        "date": "1/28/2025",
+        "name": "legs",
+        "movements": {
+          "movement1": {
+            "movement": "squat",
+            "movement1Log": [
+              {
+                "setNumber": 1,
+                "weight": 185,
+                "reps": 10
+              },
+              {
+                "setNumber": 2,
+                "weight": 205,
+                "reps": 10
+              },
+              {
+                "setNumber": 3,
+                "weight": 225,
+                "reps": 10
+              },
+              {
+                "setNumber": 4,
+                "weight": 255,
+                "reps": 7
+              }
+            ]
+          },
+          "movement2": {
+            "movement": "calfRaises",
+            "movement2Log": [
+              {
+                "setNumber": 1,
+                "weight": 190,
+                "reps": 10
+              },
+              {
+                "setNumber": 2,
+                "weight": 220,
+                "reps": 10
+              },
+              {
+                "setNumber": 3,
+                "weight": 230,
+                "reps": 10
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
