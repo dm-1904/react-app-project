@@ -2,13 +2,24 @@
   "users": [
     {
       "name": "Damon",
+      "oneRep": [
+        {
+          "name": "benchpress",
+          "date": "",
+          "weight": 0
+        },
+        {
+          "name": "squat",
+          "date": "",
+          "weight": 0
+        }
+      ],
       "workout1": {
         "date": "1/27/2025",
         "name": "chest",
         "movements": {
           "movement1": {
             "movement": "benchpress",
-            "isOneRep": true,
             "movement1Log": [
               {
                 "setNumber": 1,
@@ -34,7 +45,6 @@
           },
           "movement2": {
             "movement": "dumbellFly",
-            "isOneRep": false,
             "movement2Log": [
               {
                 "setNumber": 1,
