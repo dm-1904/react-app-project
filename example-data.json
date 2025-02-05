@@ -1,121 +1,89 @@
 {
   "users": [
     {
-      "name": "Damon",
-      "oneRep": [
-        {
-          "name": "benchpress",
-          "date": "",
-          "weight": 0
-        },
-        {
-          "name": "squat",
-          "date": "",
-          "weight": 0
-        }
-      ],
-      "workout1": {
-        "date": "1/27/2025",
-        "name": "chest",
-        "movements": {
-          "movement1": {
-            "movement": "benchpress",
-            "movement1Log": [
-              {
-                "setNumber": 1,
-                "weight": 135,
-                "reps": 10
-              },
-              {
-                "setNumber": 2,
-                "weight": 145,
-                "reps": 10
-              },
-              {
-                "setNumber": 3,
-                "weight": 155,
-                "reps": 10
-              },
-              {
-                "setNumber": 4,
-                "weight": 185,
-                "reps": 7
-              }
-            ]
-          },
-          "movement2": {
-            "movement": "dumbellFly",
-            "movement2Log": [
-              {
-                "setNumber": 1,
-                "weight": 35,
-                "reps": 10
-              },
-              {
-                "setNumber": 2,
-                "weight": 40,
-                "reps": 10
-              },
-              {
-                "setNumber": 3,
-                "weight": 45,
-                "reps": 10
-              }
-            ]
-          }
-        }
-      },
-      "workout2": {
-        "date": "1/28/2025",
-        "name": "legs",
-        "movements": {
-          "movement1": {
-            "movement": "squat",
-            "movement1Log": [
-              {
-                "setNumber": 1,
-                "weight": 185,
-                "reps": 10
-              },
-              {
-                "setNumber": 2,
-                "weight": 205,
-                "reps": 10
-              },
-              {
-                "setNumber": 3,
-                "weight": 225,
-                "reps": 10
-              },
-              {
-                "setNumber": 4,
-                "weight": 255,
-                "reps": 7
-              }
-            ]
-          },
-          "movement2": {
-            "movement": "calfRaises",
-            "movement2Log": [
-              {
-                "setNumber": 1,
-                "weight": 190,
-                "reps": 10
-              },
-              {
-                "setNumber": 2,
-                "weight": 220,
-                "reps": 10
-              },
-              {
-                "setNumber": 3,
-                "weight": 230,
-                "reps": 10
-              }
-            ]
-          }
-        }
-      }
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    }
+  ],
+  "oneRep": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "benchpress",
+      "date": "",
+      "weight": 0
+    }
+  ],
+  "workouts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2025-01-27",
+      "name": "chest"
+    }
+  ],
+  "movements": [
+    {
+      "id": 1,
+      "workoutId": 1,
+      "name": "benchpress"
+    },
+    {
+      "id": 2,
+      "workoutId": 1,
+      "name": "dumbbellFly"
+    }
+  ],
+  "movementLogs": [
+    {
+      "id": 1,
+      "movementId": 1,
+      "setNumber": 1,
+      "weight": 135,
+      "reps": 10
+    },
+    {
+      "id": 2,
+      "movementId": 1,
+      "setNumber": 2,
+      "weight": 145,
+      "reps": 10
+    },
+    {
+      "id": 3,
+      "movementId": 1,
+      "setNumber": 3,
+      "weight": 155,
+      "reps": 10
+    },
+    {
+      "id": 4,
+      "movementId": 1,
+      "setNumber": 4,
+      "weight": 185,
+      "reps": 7
+    },
+    {
+      "id": 5,
+      "movementId": 2,
+      "setNumber": 1,
+      "weight": 35,
+      "reps": 10
+    },
+    {
+      "id": 6,
+      "movementId": 2,
+      "setNumber": 2,
+      "weight": 40,
+      "reps": 10
+    },
+    {
+      "id": 7,
+      "movementId": 2,
+      "setNumber": 3,
+      "weight": 45,
+      "reps": 10
     }
   ]
 }
